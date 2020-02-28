@@ -1,0 +1,3 @@
+C:/Users/rannc/Documents/GitHub/Glitter/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_57d29.dir
+C:/Users/rannc/Documents/GitHub/Glitter/build/CMakeFiles/CMakeTmp/CMakeFiles/edit_cache.dir
+C:/Users/rannc/Documents/GitHub/Glitter/build/CMakeFiles/CMakeTmp/CMakeFiles/rebuild_cache.dir
