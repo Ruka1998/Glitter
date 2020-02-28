@@ -1,0 +1,328 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7
+					]
+				},
+				{
+					"build" : "Glitter/Vendor/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Glitter/Vendor/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						10
+					]
+				},
+				{
+					"build" : "Glitter/Vendor/glfw/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Glitter/Vendor/glfw/src",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Glitter/Vendor/assimp",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Glitter/Vendor/assimp",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "Glitter/Vendor/assimp/contrib/zlib",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "Glitter/Vendor/assimp/contrib/zlib",
+					"targetIndexes" : 
+					[
+						3,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "Glitter/Vendor/assimp/contrib",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "Glitter/Vendor/assimp/contrib"
+				},
+				{
+					"build" : "Glitter/Vendor/assimp/contrib/irrXML",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "Glitter/Vendor/assimp/contrib/irrXML",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Glitter/Vendor/assimp/code",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "Glitter/Vendor/assimp/code",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Glitter",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						9,
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						5,
+						6,
+						7
+					],
+					"name" : "Assimp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "zlib",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-3bba344490e9a255a11d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@ce35d25217d6d54dff5d",
+					"jsonFile" : "target-ALL_BUILD-Debug-11520d1bd28ba4e870e4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@bb1f179f5e6ac90a3b12",
+					"jsonFile" : "target-ALL_BUILD-Debug-89578de36dae0c794ca5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@3da07bf46ee22ae1fb40",
+					"jsonFile" : "target-ALL_BUILD-Debug-779797edcc7b91a730f1.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Glitter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Glitter-Debug-cf372ef0f9632f0cfd19.json",
+					"name" : "Glitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "IrrXML::@77c9f876d78821638f06",
+					"jsonFile" : "target-IrrXML-Debug-808b89b1b28d3860bfa9.json",
+					"name" : "IrrXML",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "UpdateAssimpLibsDebugSymbolsAndDLLs::@bb1f179f5e6ac90a3b12",
+					"jsonFile" : "target-UpdateAssimpLibsDebugSymbolsAndDLLs-Debug-799f059b7ee5ca655d2b.json",
+					"name" : "UpdateAssimpLibsDebugSymbolsAndDLLs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-d112f2cbc62d66b25fe1.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "assimp::@7d6a4a5f0af8cf7dca71",
+					"jsonFile" : "target-assimp-Debug-55e21165d686ef549f5f.json",
+					"name" : "assimp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@99e4e65676ee6623034e",
+					"jsonFile" : "target-glfw-Debug-16ab7a40e5b3f659755c.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@ce35d25217d6d54dff5d",
+					"jsonFile" : "target-uninstall-Debug-28eb8e3864893ee5bba6.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "zlib::@3da07bf46ee22ae1fb40",
+					"jsonFile" : "target-zlib-Debug-95aecdff5569180e0f72.json",
+					"name" : "zlib",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "zlibstatic::@3da07bf46ee22ae1fb40",
+					"jsonFile" : "target-zlibstatic-Debug-156fa89601e09e737c50.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rannc/Documents/GitHub/Glitter/out/build/x64-Debug",
+		"source" : "C:/Users/rannc/Documents/GitHub/Glitter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
