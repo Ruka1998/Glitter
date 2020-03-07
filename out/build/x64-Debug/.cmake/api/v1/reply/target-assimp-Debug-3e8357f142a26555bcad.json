@@ -751,15 +751,15 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 3,
 			"id" : "IrrXML::@77c9f876d78821638f06"
 		},
 		{
 			"backtrace" : 3,
 			"id" : "zlibstatic::@3da07bf46ee22ae1fb40"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "assimp::@7d6a4a5f0af8cf7dca71",

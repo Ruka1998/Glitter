@@ -47,6 +47,12 @@
     <CustomBuild Include="C:\Users\rannc\Documents\GitHub\Glitter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Users\rannc\Documents\GitHub\Glitter\Glitter\Shaders\triangle.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="C:\Users\rannc\Documents\GitHub\Glitter\Glitter\Shaders\triangle.vert">
+      <Filter>Shaders</Filter>
+    </None>
     <None Include="C:\Users\rannc\Documents\GitHub\Glitter\.gitattributes" />
     <None Include="C:\Users\rannc\Documents\GitHub\Glitter\.gitignore" />
     <None Include="C:\Users\rannc\Documents\GitHub\Glitter\.gitmodules" />
@@ -55,6 +61,9 @@
   <ItemGroup>
     <Filter Include="Headers">
       <UniqueIdentifier>{2C4FD527-9A20-354B-9A72-BF86DB460ED4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7A403904-A3CB-35A2-861D-A5FA1BB6AA17}</UniqueIdentifier>
     </Filter>
     <Filter Include="Sources">
       <UniqueIdentifier>{635995DB-6AD1-3395-BB32-31347571C8F3}</UniqueIdentifier>

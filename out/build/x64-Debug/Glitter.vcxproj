@@ -119,6 +119,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\rannc\Documents\GitHub\Glitter\Glitter\Headers\glitter.hpp" />
     <ClInclude Include="C:\Users\rannc\Documents\GitHub\Glitter\Glitter\Headers\mesh.hpp" />
     <ClInclude Include="C:\Users\rannc\Documents\GitHub\Glitter\Glitter\Headers\shader.hpp" />
+    <None Include="C:\Users\rannc\Documents\GitHub\Glitter\Glitter\Shaders\triangle.frag" />
+    <None Include="C:\Users\rannc\Documents\GitHub\Glitter\Glitter\Shaders\triangle.vert" />
     <None Include="C:\Users\rannc\Documents\GitHub\Glitter\.gitattributes" />
     <None Include="C:\Users\rannc\Documents\GitHub\Glitter\.gitignore" />
     <None Include="C:\Users\rannc\Documents\GitHub\Glitter\.gitmodules" />

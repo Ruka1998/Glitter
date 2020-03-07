@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"Glitter/Vendor/assimp/contrib/zlib/CMakeLists.txt"
+			"Glitter/Vendor/assimp/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,26 +17,32 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "IrrXML::@77c9f876d78821638f06"
+		},
+		{
 			"id" : "zlib::@3da07bf46ee22ae1fb40"
+		},
+		{
+			"id" : "zlibstatic::@3da07bf46ee22ae1fb40"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "zlibstatic::@3da07bf46ee22ae1fb40"
+			"id" : "assimp::@7d6a4a5f0af8cf7dca71"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "CMakePredefinedTargets"
 	},
-	"id" : "ALL_BUILD::@3da07bf46ee22ae1fb40",
+	"id" : "ALL_BUILD::@bb1f179f5e6ac90a3b12",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"paths" : 
 	{
-		"build" : "Glitter/Vendor/assimp/contrib/zlib",
-		"source" : "Glitter/Vendor/assimp/contrib/zlib"
+		"build" : "Glitter/Vendor/assimp",
+		"source" : "Glitter/Vendor/assimp"
 	},
 	"sources" : [],
 	"type" : "UTILITY"

@@ -5,7 +5,7 @@
 		"commands" : [],
 		"files" : 
 		[
-			"Glitter/Vendor/glfw/CMakeLists.txt"
+			"Glitter/Vendor/assimp/contrib/zlib/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,23 +17,26 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"id" : "zlib::@3da07bf46ee22ae1fb40"
 		},
 		{
-			"id" : "glfw::@99e4e65676ee6623034e"
+			"id" : "zlibstatic::@3da07bf46ee22ae1fb40"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"folder" : 
 	{
 		"name" : "CMakePredefinedTargets"
 	},
-	"id" : "ALL_BUILD::@ce35d25217d6d54dff5d",
+	"id" : "ALL_BUILD::@3da07bf46ee22ae1fb40",
 	"isGeneratorProvided" : true,
 	"name" : "ALL_BUILD",
 	"paths" : 
 	{
-		"build" : "Glitter/Vendor/glfw",
-		"source" : "Glitter/Vendor/glfw"
+		"build" : "Glitter/Vendor/assimp/contrib/zlib",
+		"source" : "Glitter/Vendor/assimp/contrib/zlib"
 	},
 	"sources" : [],
 	"type" : "UTILITY"
